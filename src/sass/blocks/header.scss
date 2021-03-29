@@ -1,0 +1,61 @@
+.header {
+  display: block;
+  margin: auto;
+  width: $mobile-card-width;
+  box-sizing: border-box;
+}
+
+.header__title {
+  color: $header-color;
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header__label {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #363636;
+  padding-right: 10px;
+}
+
+.header__filter {
+  width: 210px;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: 25px;
+  line-height: 25px;
+}
+
+@media (min-width: $desktop-width) {
+  .header {
+    width: 1181px;
+  }
+
+  .header__title {
+    font-size: 36px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 36px;
+    margin-bottom: 43px;
+  }
+
+  .header__label {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+  }
+
+  .header__filter {
+    width: 400px;
+    line-height: 48px;
+    font-size: 20px;
+    margin-bottom: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
