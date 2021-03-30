@@ -1,12 +1,13 @@
-const webpack = require('webpack');
 const path = require('path');
 
 const config = {
   mode: 'development',
+
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    assetModuleFilename: 'images/[hash][ext][query]'
   },
   devtool: 'source-map',
   devServer: {
@@ -35,6 +36,10 @@ const config = {
           'css-loader',
           'sass-loader'
         ]
+      },
+      {
+        test: /\.(png|jpg|gif|svg)$/i,
+        type: 'asset/resource'
       }
     ]
   }

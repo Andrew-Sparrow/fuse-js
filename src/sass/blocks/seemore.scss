@@ -1,0 +1,27 @@
+.seemore {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  width: 150px;
+  border: 1px solid #D8D8D8;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  color: $dark-grey;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+}
+
+.seemore::after {
+  position: absolute;
+  display: block;
+  //content: url("../img/chevron.svg");
+  //content: url(chevronPath);
+  width: 55px;
+  height: 53px;
+  top: 13px;
+  right: -19px;
+  z-index: 700;
+}

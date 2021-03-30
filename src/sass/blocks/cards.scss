@@ -1,0 +1,15 @@
+.cards {
+  list-style: none;
+  padding-left: 0;
+  padding-bottom: 60px;
+}
+
+@media (min-width: $desktop-width) {
+  .cards {
+    width: 1181px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+  }
+}

@@ -1,3 +1,5 @@
+import chevronPath from "./img/chevron.svg";
 import "./sass/style.scss";
 
-console.log("hello world!");
+console.log("success!");
+console.log(chevronPath);
