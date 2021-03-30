@@ -7,7 +7,7 @@
   "license": "ISC",
   "homepage": "https://Andrew-Sparrow.github.io/fuse-js",
   "scripts": {
-    "deploy": "gh-pages -d build-prod",
+    "deploy": "gh-pages -d dist",
     "eslint": "eslint src/**/*.js",
     "test-eslint": "npm run eslint",
     "clean": "rm dist/bundle.js",

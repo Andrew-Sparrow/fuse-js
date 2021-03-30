@@ -7,7 +7,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    assetModuleFilename: 'images/[hash][ext][query]'
+    assetModuleFilename: 'images/[name][ext][query]'
   },
   devtool: 'source-map',
   devServer: {
