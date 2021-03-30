@@ -7,12 +7,11 @@
   "license": "ISC",
   "homepage": "https://Andrew-Sparrow.github.io/fuse-js",
   "scripts": {
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "eslint": "eslint src/**/*.js",
     "test-eslint": "npm run eslint",
-    "clean": "rm dist/bundle.js",
-    "build-dev": "webpack --mode development",
-    "build-prod": "webpack --mode production",
+    "clean": "rm build/bundle.js",
+    "build": "webpack --mode development",
     "test": "jest",
     "start": "webpack serve --open"
   },

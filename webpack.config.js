@@ -5,13 +5,13 @@ const config = {
 
   entry: './src/index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'build'),
     filename: 'bundle.js',
     assetModuleFilename: 'images/[name][ext][query]'
   },
   devtool: 'source-map',
   devServer: {
-    contentBase: path.join(__dirname, 'dist'),
+    contentBase: path.join(__dirname, 'build'),
     watchContentBase: true,
   },
   module: {
