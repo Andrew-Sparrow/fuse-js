@@ -1,26 +1,34 @@
-import Abstract from "./abstract";
+import Smart from "./smart";
+import he from "he";
 
-const createFilterTemplate = () => {
-  return `<input class="header__filter" id="filter" name="filter" type="text">`;
+const createFilterTemplate = (filterData) => {
+  const {
+    text
+  } = filterData;
+
+  return `<input class="header__filter" id="filter" name="filter" type="text" value="${he.encode(text)}">`;
 };
 
-
-export default class FilterView extends Abstract {
-  constructor() {
+export default class FilterView extends Smart {
+  constructor(data) {
     super();
-    this._filterTypeChangeHandler = this._filterTypeChangeHandler.bind(this);
+    this._data = data;
+    this._inputHandler = this._inputHandler.bind(this);
   }
 
   getTemplate() {
-    return createFilterTemplate();
+    return createFilterTemplate(this._data);
   }
 
-  _filterTypeChangeHandler(evt) {
-    this._callback.filterTypeChange(evt.target.value);
+  _inputHandler(evt) {
+    evt.preventDefault();
+
+    this.updateData({text: evt.target.value.trim()});
+    this._callback.filterValueChange(this._data);
   }
 
-  setFilterTypeChangeHandler(callback) {
-    this._callback.filterTypeChange = callback;
-    this.getElement().addEventListener(`click`, this._filterTypeChangeHandler);
+  setFilterValueChangeHandler(callback) {
+    this._callback.filterValueChange = callback;
+    this.getElement().addEventListener(`input`, this._inputHandler);
   }
 }
