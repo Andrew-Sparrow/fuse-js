@@ -41,7 +41,7 @@
 }
 
 .card__description {
-  &.card__description_independent::after {
+  &.card__description_independentliving::after {
     background-color: #006F79;
     content: "Independent living";
     width: 110px;
@@ -49,7 +49,7 @@
 }
 
 .card__description {
-  &.card__description_support::after {
+  &.card__description_supportavailable::after {
     background-color: #EC6608;
     content: "Restaurant & Support available";
     width: 176px;
