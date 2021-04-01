@@ -6,7 +6,7 @@ const createNoCardsTemplate = () => {
           </section>`;
 };
 
-export default class NoFilmsView extends Abstract {
+export default class NoCardsView extends Abstract {
   getTemplate() {
     return createNoCardsTemplate();
   }
