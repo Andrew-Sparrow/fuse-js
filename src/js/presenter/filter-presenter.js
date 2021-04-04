@@ -5,6 +5,9 @@ import {
   RenderPosition,
 } from "../utils/render-utils";
 
+import {UpdateTypeForRerender} from "../utils/consts";
+
+
 export default class FilterPresenter {
   constructor(container, filterModel) {
     this._container = container;
@@ -25,7 +28,7 @@ export default class FilterPresenter {
   }
 
   _handleFilterValueChange(filterValue) {
-    this._filterModel.setFilterValue(filterValue);
+    this._filterModel.setFilterValue(UpdateTypeForRerender.MAJOR, filterValue);
   }
 
   _getFilterValue() {

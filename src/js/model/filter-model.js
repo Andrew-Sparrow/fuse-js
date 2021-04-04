@@ -6,9 +6,9 @@ export default class FilterModel extends Observer {
     this._filterValue = {text: ''};
   }
 
-  setFilterValue(filterValue) {
+  setFilterValue(updateTypeForRerender, filterValue) {
     this._filterValue = filterValue;
-    this._notify(this._filterValue);
+    this._notify(updateTypeForRerender, this._filterValue);
   }
 
   getFilterValue() {

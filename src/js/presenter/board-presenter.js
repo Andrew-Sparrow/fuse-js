@@ -17,6 +17,8 @@ import {
   RenderPosition
 } from "../utils/render-utils";
 
+import {getFilteredCards} from "../utils/utils";
+
 
 export default class BoardPresenter {
   constructor(container, cardsModel, filterModel) {
@@ -55,17 +57,17 @@ export default class BoardPresenter {
 
   _getCards() {
     const filterValue = this._filterModel.getFilterValue();
-    console.log(filterValue.text.length);
 
     const cards = this._cardsModel.getItems();
 
-    console.log(cards);
-
-    let filteredCards = cards;
+    let filteredCards = [];
 
     if(filterValue.text.length > 3) {
-      filteredCards = cards.slice(0, 3);
+      filteredCards = getFilteredCards(cards, filterValue.text.toLowerCase());
+    } else {
+      filteredCards = cards;
     }
+
     return filteredCards;
   }
 
