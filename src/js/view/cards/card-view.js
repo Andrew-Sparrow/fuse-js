@@ -1,4 +1,5 @@
 import Smart from "../smart";
+import {numberWithCommas} from "../../utils/utils";
 
 const createFilmCardTemplate = (card) => {
   const {
@@ -17,7 +18,7 @@ const createFilmCardTemplate = (card) => {
                   ${address}
                 </p>
                 <p class="card__properties">
-                  New Properties for Sale from <span class="card__properties_sign">£</span><span class="card__properties_price">${price}</span>
+                  New Properties for Sale from <span class="card__properties_sign">£</span><span class="card__properties_price">${numberWithCommas(price)}</span>
                 </p>
                 <p class="card__shared">Shared Ownership Available</p>
               </div>
