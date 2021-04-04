@@ -16,19 +16,21 @@
 }
 
 .card__description {
-  font-size: 13px;
+  font-size: 16px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 5px;
 }
 
 .card__title {
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
-  letter-spacing: 0px;
+  letter-spacing: 0.7px;
   text-align: left;
   margin: 0;
   padding-top: 10px;
+  margin-bottom: -13px;
 }
 
 .card__house-picture {
@@ -74,7 +76,7 @@
 }
 
 .card__shared {
-  margin-bottom: 0;
+  font-size: 14px;
 }
 
 @media (min-width: $desktop-width) {
@@ -86,5 +88,15 @@
 
   .card__house-picture {
     width: 377px;
+  }
+
+  .card__shared {
+    font-size: 14px;
+    margin-bottom: 7px;
+
+  }
+
+  .card__properties {
+    margin-bottom: -8px;
   }
 }

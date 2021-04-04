@@ -1,6 +1,8 @@
+# Test project 
 # fuse-js
 
-Empty project.
+###Watch live version -
+#### https://andrew-sparrow.github.io/fuse-js 
 
 ## Building and running on localhost
 
@@ -10,22 +12,16 @@ First install dependencies:
 npm install
 ```
 
-To create a production build:
-
-```sh
-npm run build-prod
-```
-
 To create a development build:
 
 ```sh
-npm run build-dev
+npm run build
 ```
 
 ## Running
 
 ```sh
-node dist/bundle.js
+npm run start
 ```
 
 ## Testing
@@ -35,7 +31,3 @@ To run unit tests:
 ```sh
 npm test
 ```
-
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
