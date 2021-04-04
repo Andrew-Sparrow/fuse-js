@@ -1,8 +1,8 @@
 import Abstract from "./abstract";
 
 const createFilmsLoadingTemplate = () => {
-  return `<section class="films-list">
-            <h2 class="films-list__title">Loading...</h2>
+  return `<section class="cards">
+            <h2>Loading...</h2>
           </section>`;
 };
 

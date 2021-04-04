@@ -1,7 +1,7 @@
 import Abstract from "./abstract";
 
 const createSeeMoreTemplate = () => {
-  return `<button class="seemore">See more</button>`;
+  return `<a class="seemore">See more</a>`;
 };
 
 export default class SeeMoreView extends Abstract {

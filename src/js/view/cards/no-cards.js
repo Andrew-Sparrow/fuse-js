@@ -1,8 +1,8 @@
 import Abstract from "../abstract";
 
 const createNoCardsTemplate = () => {
-  return `<section class="cards-list">
-            <h2 class="card-list__title">There are no homes to show.</h2>
+  return `<section class="cards">
+            <h2>There are no homes to show.</h2>
           </section>`;
 };
 

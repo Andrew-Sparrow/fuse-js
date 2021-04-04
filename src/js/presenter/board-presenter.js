@@ -1,4 +1,3 @@
-import CardsBoardView from "../view/cards/cards-board-view";
 import NoCardsView from "../view/cards/no-cards";
 import SeeMoreView from "../view/see-more-view";
 
@@ -29,10 +28,11 @@ export default class BoardPresenter {
 
     this._renderedCardsCount = CARDS_COUNT_PER_STEP;
 
-    this._cardsBoardComponent = new CardsBoardView();
     this._cardsListComponent = new CardsListView();
 
     this._seeMoreButtonComponent = null;
+
+    this._listRenderedPresentersBasicBlock = new Map();
 
     this._noCardsComponent = new NoCardsView();
     this._loadingComponent = new LoadingView();
@@ -54,11 +54,18 @@ export default class BoardPresenter {
   }
 
   _getCards() {
+    const filterValue = this._filterModel.getFilterValue();
+    console.log(filterValue.text.length);
+
     const cards = this._cardsModel.getItems();
-    let filteredCards = [];
 
-    filteredCards = cards;
+    console.log(cards);
 
+    let filteredCards = cards;
+
+    if(filterValue.text.length > 3) {
+      filteredCards = cards.slice(0, 3);
+    }
     return filteredCards;
   }
 
@@ -77,8 +84,7 @@ export default class BoardPresenter {
   }
 
   _renderBasicCardList() {
-    render(this._container, this._cardsBoardComponent, RenderPosition.BEFOREEND);
-    render(this._cardsBoardComponent, this._cardsListComponent, RenderPosition.BEFOREEND);
+    render(this._container, this._cardsListComponent, RenderPosition.BEFOREEND);
 
     const allCards = this._getCards();
     const cardsCount = allCards.length;
@@ -92,13 +98,11 @@ export default class BoardPresenter {
   }
 
   _renderNoCards() {
-    render(this._container, this._cardsBoardComponent, RenderPosition.BEFOREEND);
-    render(this._cardsBoardComponent, this._noCardsComponent, RenderPosition.BEFOREEND);
+    render(this._container, this._noCardsComponent, RenderPosition.BEFOREEND);
   }
 
   _renderLoading() {
-    render(this._container, this._cardsBoardComponent, RenderPosition.BEFOREEND);
-    render(this._cardsBoardComponent, this._loadingComponent, RenderPosition.BEFOREEND);
+    render(this._container, this._loadingComponent, RenderPosition.BEFOREEND);
   }
 
   _handleModelEventForRerender(updateTypeRerender) {
@@ -157,7 +161,7 @@ export default class BoardPresenter {
     this._seeMoreButtonComponent = new SeeMoreView();
     this._seeMoreButtonComponent.setClickHandler(this._handleSeeMoreButtonClick);
 
-    render(this._cardsListComponent, this._seeMoreButtonComponent, RenderPosition.BEFOREEND);
+    render(this._container, this._seeMoreButtonComponent, RenderPosition.BEFOREEND);
   }
 
   _renderDesk() {
