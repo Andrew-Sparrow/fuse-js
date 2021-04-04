@@ -42,6 +42,10 @@
   position: relative;
 }
 
+.card__properties_sign {
+  font-weight: 700;
+}
+
 .card__description {
   &.card__description_independentliving::after {
     background-color: #006F79;
@@ -66,7 +70,7 @@
   padding-right: 10px;
   padding-top: 8px;
   padding-bottom: 6px;
-  top: -35px;
+  top: -41px;
   right: -1px;
   color: #FFFFFF;
 }
