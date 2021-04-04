@@ -27,7 +27,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_img_chevron_svg__WEBPACK_IMPORTED_MODULE_3__);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".header {\n  display: block;\n  margin: auto;\n  width: 260px;\n  box-sizing: border-box; }\n\n.header__title {\n  color: #45852D;\n  font-size: 21px;\n  font-weight: 700;\n  text-align: center;\n  padding-top: 15px;\n  padding-bottom: 15px; }\n\n.header__label {\n  font-size: 16px;\n  font-weight: 700;\n  line-height: 24px;\n  letter-spacing: -0.3px;\n  color: #363636;\n  padding-right: 10px; }\n\n.header__filter {\n  width: 210px;\n  border: 1px solid #D8D8D8;\n  box-sizing: border-box;\n  border-radius: 25px;\n  line-height: 25px; }\n\n@media (min-width: 321px) {\n  .header {\n    width: 1181px; }\n  .header__title {\n    font-size: 36px;\n    padding-top: 0;\n    padding-bottom: 0;\n    margin-top: 36px;\n    margin-bottom: 43px; }\n  .header__label {\n    font-size: 16px;\n    line-height: 24px;\n    letter-spacing: -0.3px; }\n  .header__filter {\n    width: 400px;\n    line-height: 48px;\n    font-size: 20px;\n    margin-bottom: 45px;\n    padding-left: 20px;\n    padding-right: 20px; } }\n\n* {\n  box-sizing: border-box;\n  font-family: 'Open Sans', sans-serif; }\n\n.main {\n  padding-bottom: 77px; }\n\n.cards {\n  list-style: none;\n  padding-left: 0;\n  padding-bottom: 60px; }\n\n@media (min-width: 321px) {\n  .cards {\n    width: 1181px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    margin: auto; } }\n\n.card {\n  width: 260px;\n  background: #F8F8F8;\n  border: 1px solid #D8D8D8;\n  box-sizing: border-box;\n  margin: auto;\n  margin-bottom: 38px;\n  padding-bottom: 10px; }\n\n.card__link {\n  display: block;\n  cursor: pointer;\n  text-decoration: none;\n  color: #363636; }\n\n.card__description {\n  font-size: 13px;\n  padding-left: 20px;\n  padding-right: 20px; }\n\n.card__title {\n  font-size: 20px;\n  font-weight: 700;\n  line-height: 27px;\n  letter-spacing: 0px;\n  text-align: left;\n  margin: 0;\n  padding-top: 10px; }\n\n.card__house-picture {\n  width: 258px;\n  height: auto; }\n\n.card__description {\n  position: relative; }\n\n.card__description.card__description_independentliving::after {\n  background-color: #006F79;\n  content: \"Independent living\";\n  width: 110px; }\n\n.card__description.card__description_supportavailable::after {\n  background-color: #EC6608;\n  content: \"Restaurant & Support available\";\n  width: 176px; }\n\n.card__description::after {\n  position: absolute;\n  display: block;\n  font-size: 12px;\n  padding-left: 10px;\n  padding-right: 10px;\n  padding-top: 8px;\n  padding-bottom: 6px;\n  top: -35px;\n  right: -1px;\n  color: #FFFFFF; }\n\n.card__properties_price {\n  font-weight: 700; }\n\n.card__shared {\n  margin-bottom: 0; }\n\n@media (min-width: 321px) {\n  .card {\n    width: 379px;\n    margin: 0;\n    margin-bottom: 38px; }\n  .card__house-picture {\n    width: 377px; } }\n\n.seemore {\n  display: block;\n  position: relative;\n  text-decoration: none;\n  width: 150px;\n  border: 1px solid #D8D8D8;\n  border-radius: 25px;\n  font-size: 16px;\n  font-weight: 700;\n  color: #363636;\n  margin: auto;\n  padding-top: 10px;\n  padding-bottom: 12px;\n  padding-left: 30px; }\n\n.seemore::after {\n  position: absolute;\n  display: block;\n  content: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  width: 55px;\n  height: 53px;\n  top: 13px;\n  right: -19px;\n  z-index: 700; }\n", "",{"version":3,"sources":["webpack://./src/sass/blocks/header.scss","webpack://./src/sass/variables.scss","webpack://./src/sass/blocks/main.scss","webpack://./src/sass/blocks/cards.scss","webpack://./src/sass/blocks/card.scss","webpack://./src/sass/blocks/seemore.scss"],"names":[],"mappings":"AAAA;EACE,cAAc;EACd,YAAY;EACZ,YCFuB;EDGvB,sBAAsB,EAAA;;AAGxB;EACE,cCRoB;EDSpB,eAAe;EACf,gBAAgB;EAChB,kBAAkB;EAClB,iBAAiB;EACjB,oBAAoB,EAAA;;AAGtB;EACE,eAAe;EACf,gBAAgB;EAChB,iBAAiB;EACjB,sBAAsB;EACtB,cAAc;EACd,mBAAmB,EAAA;;AAGrB;EACE,YAAY;EACZ,yBAAyB;EACzB,sBAAsB;EACtB,mBAAmB;EACnB,iBAAiB,EAAA;;AAGnB;EACE;IACE,aAAa,EAAA;EAGf;IACE,eAAe;IACf,cAAc;IACd,iBAAiB;IACjB,gBAAgB;IAChB,mBAAmB,EAAA;EAGrB;IACE,eAAe;IACf,iBAAiB;IACjB,sBAAsB,EAAA;EAGxB;IACE,YAAY;IACZ,iBAAiB;IACjB,eAAe;IACf,mBAAmB;IACnB,kBAAkB;IAClB,mBAAmB,EAAA,EACpB;;AE3DH;EACE,sBAAsB;EACtB,oCAAoC,EAAA;;AAGtC;EACE,oBAAoB,EAAA;;ACNtB;EACE,gBAAgB;EAChB,eAAe;EACf,oBAAoB,EAAA;;AAGtB;EACE;IACE,aAAa;IACb,aAAa;IACb,eAAe;IACf,8BAA8B;IAC9B,YAAY,EAAA,EACb;;ACbH;EACE,YHAuB;EGCvB,mBAAmB;EACnB,yBAAyB;EACzB,sBAAsB;EACtB,YAAY;EACZ,mBAAmB;EACnB,oBAAoB,EAAA;;AAGtB;EACE,cAAc;EACd,eAAe;EACf,qBAAqB;EACrB,cAAc,EAAA;;AAGhB;EACE,eAAe;EACf,kBAAkB;EAClB,mBAAmB,EAAA;;AAGrB;EACE,eAAe;EACf,gBAAgB;EAChB,iBAAiB;EACjB,mBAAmB;EACnB,gBAAgB;EAChB,SAAS;EACT,iBAAiB,EAAA;;AAGnB;EACE,YAAY;EACZ,YAAY,EAAA;;AAGd;EACE,kBAAkB,EAAA;;AAGpB;EAEI,yBAAyB;EACzB,6BAA6B;EAC7B,YAAY,EAAA;;AAIhB;EAEI,yBAAyB;EACzB,yCAAyC;EACzC,YAAY,EAAA;;AAIhB;EACE,kBAAkB;EAClB,cAAc;EACd,eAAe;EACf,kBAAkB;EAClB,mBAAmB;EACnB,gBAAgB;EAChB,mBAAmB;EACnB,UAAU;EACV,WAAW;EACX,cAAc,EAAA;;AAGhB;EACE,gBAAgB,EAAA;;AAGlB;EACE,gBAAgB,EAAA;;AAGlB;EACE;IACE,YH/EsB;IGgFtB,SAAS;IACT,mBAAmB,EAAA;EAGrB;IACE,YAAY,EAAA,EACb;;ACxFH;EACE,cAAc;EACd,kBAAkB;EAClB,qBAAqB;EACrB,YAAY;EACZ,yBAAyB;EACzB,mBAAmB;EACnB,eAAe;EACf,gBAAgB;EAChB,cJLiB;EIMjB,YAAY;EACZ,iBAAiB;EACjB,oBAAoB;EACpB,kBAAkB,EAAA;;AAGpB;EACE,kBAAkB;EAClB,cAAc;EACd,gDAAkC;EAClC,WAAW;EACX,YAAY;EACZ,SAAS;EACT,YAAY;EACZ,YAAY,EAAA","sourcesContent":[".header {\r\n  display: block;\r\n  margin: auto;\r\n  width: $mobile-card-width;\r\n  box-sizing: border-box;\r\n}\r\n\r\n.header__title {\r\n  color: $header-color;\r\n  font-size: 21px;\r\n  font-weight: 700;\r\n  text-align: center;\r\n  padding-top: 15px;\r\n  padding-bottom: 15px;\r\n}\r\n\r\n.header__label {\r\n  font-size: 16px;\r\n  font-weight: 700;\r\n  line-height: 24px;\r\n  letter-spacing: -0.3px;\r\n  color: #363636;\r\n  padding-right: 10px;\r\n}\r\n\r\n.header__filter {\r\n  width: 210px;\r\n  border: 1px solid #D8D8D8;\r\n  box-sizing: border-box;\r\n  border-radius: 25px;\r\n  line-height: 25px;\r\n}\r\n\r\n@media (min-width: $desktop-width) {\r\n  .header {\r\n    width: 1181px;\r\n  }\r\n\r\n  .header__title {\r\n    font-size: 36px;\r\n    padding-top: 0;\r\n    padding-bottom: 0;\r\n    margin-top: 36px;\r\n    margin-bottom: 43px;\r\n  }\r\n\r\n  .header__label {\r\n    font-size: 16px;\r\n    line-height: 24px;\r\n    letter-spacing: -0.3px;\r\n  }\r\n\r\n  .header__filter {\r\n    width: 400px;\r\n    line-height: 48px;\r\n    font-size: 20px;\r\n    margin-bottom: 45px;\r\n    padding-left: 20px;\r\n    padding-right: 20px;\r\n  }\r\n}\r\n","$header-color: #45852D;\r\n$mobile-card-width: 260px;\r\n$desktop-card-width: 379px;\r\n$desktop-width: 321px;\r\n$dark-grey: #363636;\r\n","* {\n  box-sizing: border-box;\n  font-family: 'Open Sans', sans-serif;\n}\n\n.main {\n  padding-bottom: 77px;\n}\n",".cards {\r\n  list-style: none;\r\n  padding-left: 0;\r\n  padding-bottom: 60px;\r\n}\r\n\r\n@media (min-width: $desktop-width) {\r\n  .cards {\r\n    width: 1181px;\r\n    display: flex;\r\n    flex-wrap: wrap;\r\n    justify-content: space-between;\r\n    margin: auto;\r\n  }\r\n}",".card {\n  width: $mobile-card-width;\n  background: #F8F8F8;\n  border: 1px solid #D8D8D8;\n  box-sizing: border-box;\n  margin: auto;\n  margin-bottom: 38px;\n  padding-bottom: 10px;\n}\n\n.card__link {\n  display: block;\n  cursor: pointer;\n  text-decoration: none;\n  color: #363636;\n}\n\n.card__description {\n  font-size: 13px;\n  padding-left: 20px;\n  padding-right: 20px;\n}\n\n.card__title {\n  font-size: 20px;\n  font-weight: 700;\n  line-height: 27px;\n  letter-spacing: 0px;\n  text-align: left;\n  margin: 0;\n  padding-top: 10px;\n}\n\n.card__house-picture {\n  width: 258px;\n  height: auto;\n}\n\n.card__description {\n  position: relative;\n}\n\n.card__description {\n  &.card__description_independentliving::after {\n    background-color: #006F79;\n    content: \"Independent living\";\n    width: 110px;\n  }\n}\n\n.card__description {\n  &.card__description_supportavailable::after {\n    background-color: #EC6608;\n    content: \"Restaurant & Support available\";\n    width: 176px;\n  }\n}\n\n.card__description::after {\n  position: absolute;\n  display: block;\n  font-size: 12px;\n  padding-left: 10px;\n  padding-right: 10px;\n  padding-top: 8px;\n  padding-bottom: 6px;\n  top: -35px;\n  right: -1px;\n  color: #FFFFFF;\n}\n\n.card__properties_price {\n  font-weight: 700;\n}\n\n.card__shared {\n  margin-bottom: 0;\n}\n\n@media (min-width: $desktop-width) {\n  .card {\n    width: $desktop-card-width;\n    margin: 0;\n    margin-bottom: 38px;\n  }\n\n  .card__house-picture {\n    width: 377px;\n  }\n}\n",".seemore {\n  display: block;\n  position: relative;\n  text-decoration: none;\n  width: 150px;\n  border: 1px solid #D8D8D8;\n  border-radius: 25px;\n  font-size: 16px;\n  font-weight: 700;\n  color: $dark-grey;\n  margin: auto;\n  padding-top: 10px;\n  padding-bottom: 12px;\n  padding-left: 30px;\n}\n\n.seemore::after {\n  position: absolute;\n  display: block;\n  content: url(\"../img/chevron.svg\");\n  width: 55px;\n  height: 53px;\n  top: 13px;\n  right: -19px;\n  z-index: 700;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".header {\n  display: block;\n  margin: auto;\n  width: 260px;\n  box-sizing: border-box; }\n\n.header__title {\n  color: #45852D;\n  font-size: 21px;\n  font-weight: 700;\n  text-align: center;\n  padding-top: 15px;\n  padding-bottom: 15px; }\n\n.header__label {\n  font-size: 16px;\n  font-weight: 700;\n  line-height: 24px;\n  letter-spacing: -0.3px;\n  color: #363636;\n  padding-right: 10px; }\n\n.header__filter {\n  width: 210px;\n  border: 1px solid #D8D8D8;\n  box-sizing: border-box;\n  border-radius: 25px;\n  line-height: 25px; }\n\n@media (min-width: 321px) {\n  .header {\n    width: 1181px; }\n  .header__title {\n    font-size: 36px;\n    padding-top: 0;\n    padding-bottom: 0;\n    margin-top: 36px;\n    margin-bottom: 43px;\n    margin-left: -19px;\n    letter-spacing: 1.7px; }\n  .header__label {\n    font-size: 16px;\n    line-height: 24px;\n    letter-spacing: -0.3px;\n    padding-right: 18px; }\n  .header__filter {\n    width: 418px;\n    line-height: 48px;\n    font-size: 20px;\n    margin-bottom: 45px;\n    padding-left: 20px;\n    padding-right: 20px; } }\n\n* {\n  box-sizing: border-box;\n  font-family: 'Open Sans', sans-serif; }\n\n.main {\n  padding-bottom: 77px; }\n\n.cards {\n  list-style: none;\n  padding-left: 0;\n  padding-bottom: 23px; }\n\n@media (min-width: 321px) {\n  .cards {\n    width: 1181px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    margin: auto; } }\n\n.card {\n  width: 260px;\n  background: #F8F8F8;\n  border: 1px solid #D8D8D8;\n  box-sizing: border-box;\n  margin: auto;\n  margin-bottom: 38px;\n  padding-bottom: 10px; }\n\n.card__link {\n  display: block;\n  cursor: pointer;\n  text-decoration: none;\n  color: #363636; }\n\n.card__description {\n  font-size: 16px;\n  padding-left: 20px;\n  padding-right: 20px;\n  margin-top: 5px; }\n\n.card__title {\n  font-size: 20px;\n  font-weight: 700;\n  line-height: 27px;\n  letter-spacing: 0.7px;\n  text-align: left;\n  margin: 0;\n  padding-top: 10px;\n  margin-bottom: -13px; }\n\n.card__house-picture {\n  width: 258px;\n  height: auto; }\n\n.card__description {\n  position: relative; }\n\n.card__description.card__description_independentliving::after {\n  background-color: #006F79;\n  content: \"Independent living\";\n  width: 110px; }\n\n.card__description.card__description_supportavailable::after {\n  background-color: #EC6608;\n  content: \"Restaurant & Support available\";\n  width: 176px; }\n\n.card__description::after {\n  position: absolute;\n  display: block;\n  font-size: 12px;\n  padding-left: 10px;\n  padding-right: 10px;\n  padding-top: 8px;\n  padding-bottom: 6px;\n  top: -35px;\n  right: -1px;\n  color: #FFFFFF; }\n\n.card__properties_price {\n  font-weight: 700; }\n\n.card__shared {\n  font-size: 14px; }\n\n@media (min-width: 321px) {\n  .card {\n    width: 379px;\n    margin: 0;\n    margin-bottom: 38px; }\n  .card__house-picture {\n    width: 377px; }\n  .card__shared {\n    font-size: 14px;\n    margin-bottom: 7px; }\n  .card__properties {\n    margin-bottom: -8px; } }\n\n.seemore {\n  display: block;\n  position: relative;\n  text-decoration: none;\n  width: 150px;\n  border: 1px solid #D8D8D8;\n  border-radius: 25px;\n  font-size: 16px;\n  font-weight: 700;\n  color: #363636;\n  margin: auto;\n  padding-top: 10px;\n  padding-left: 30px;\n  padding-bottom: 12px;\n  background-color: #FFFFFF; }\n\n.seemore::after {\n  position: absolute;\n  display: block;\n  content: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  width: 55px;\n  height: 53px;\n  top: 13px;\n  right: -19px;\n  z-index: 700; }\n", "",{"version":3,"sources":["webpack://./src/sass/blocks/header.scss","webpack://./src/sass/variables.scss","webpack://./src/sass/blocks/main.scss","webpack://./src/sass/blocks/cards.scss","webpack://./src/sass/blocks/card.scss","webpack://./src/sass/blocks/seemore.scss"],"names":[],"mappings":"AAAA;EACE,cAAc;EACd,YAAY;EACZ,YCFuB;EDGvB,sBAAsB,EAAA;;AAGxB;EACE,cCRoB;EDSpB,eAAe;EACf,gBAAgB;EAChB,kBAAkB;EAClB,iBAAiB;EACjB,oBAAoB,EAAA;;AAGtB;EACE,eAAe;EACf,gBAAgB;EAChB,iBAAiB;EACjB,sBAAsB;EACtB,cAAc;EACd,mBAAmB,EAAA;;AAGrB;EACE,YAAY;EACZ,yBAAyB;EACzB,sBAAsB;EACtB,mBAAmB;EACnB,iBAAiB,EAAA;;AAGnB;EACE;IACE,aAAa,EAAA;EAGf;IACE,eAAe;IACf,cAAc;IACd,iBAAiB;IACjB,gBAAgB;IAChB,mBAAmB;IACnB,kBAAkB;IAClB,qBAAqB,EAAA;EAGvB;IACE,eAAe;IACf,iBAAiB;IACjB,sBAAsB;IACtB,mBAAmB,EAAA;EAGrB;IACE,YAAY;IACZ,iBAAiB;IACjB,eAAe;IACf,mBAAmB;IACnB,kBAAkB;IAClB,mBAAmB,EAAA,EACpB;;AE9DH;EACE,sBAAsB;EACtB,oCAAoC,EAAA;;AAGtC;EACE,oBAAoB,EAAA;;ACNtB;EACE,gBAAgB;EAChB,eAAe;EACf,oBAAoB,EAAA;;AAGtB;EACE;IACE,aAAa;IACb,aAAa;IACb,eAAe;IACf,8BAA8B;IAC9B,YAAY,EAAA,EACb;;ACbH;EACE,YHAuB;EGCvB,mBAAmB;EACnB,yBAAyB;EACzB,sBAAsB;EACtB,YAAY;EACZ,mBAAmB;EACnB,oBAAoB,EAAA;;AAGtB;EACE,cAAc;EACd,eAAe;EACf,qBAAqB;EACrB,cAAc,EAAA;;AAGhB;EACE,eAAe;EACf,kBAAkB;EAClB,mBAAmB;EACnB,eAAe,EAAA;;AAGjB;EACE,eAAe;EACf,gBAAgB;EAChB,iBAAiB;EACjB,qBAAqB;EACrB,gBAAgB;EAChB,SAAS;EACT,iBAAiB;EACjB,oBAAoB,EAAA;;AAGtB;EACE,YAAY;EACZ,YAAY,EAAA;;AAGd;EACE,kBAAkB,EAAA;;AAGpB;EAEI,yBAAyB;EACzB,6BAA6B;EAC7B,YAAY,EAAA;;AAIhB;EAEI,yBAAyB;EACzB,yCAAyC;EACzC,YAAY,EAAA;;AAIhB;EACE,kBAAkB;EAClB,cAAc;EACd,eAAe;EACf,kBAAkB;EAClB,mBAAmB;EACnB,gBAAgB;EAChB,mBAAmB;EACnB,UAAU;EACV,WAAW;EACX,cAAc,EAAA;;AAGhB;EACE,gBAAgB,EAAA;;AAGlB;EACE,eAAe,EAAA;;AAGjB;EACE;IACE,YHjFsB;IGkFtB,SAAS;IACT,mBAAmB,EAAA;EAGrB;IACE,YAAY,EAAA;EAGd;IACE,eAAe;IACf,kBAAkB,EAAA;EAIpB;IACE,mBAAmB,EAAA,EACpB;;ACpGH;EACE,cAAc;EACd,kBAAkB;EAClB,qBAAqB;EACrB,YAAY;EACZ,yBAAyB;EACzB,mBAAmB;EACnB,eAAe;EACf,gBAAgB;EAChB,cJLiB;EIMjB,YAAY;EACZ,iBAAiB;EACjB,kBAAkB;EAClB,oBAAoB;EACpB,yBAAyB,EAAA;;AAG3B;EACE,kBAAkB;EAClB,cAAc;EACd,gDAAkC;EAClC,WAAW;EACX,YAAY;EACZ,SAAS;EACT,YAAY;EACZ,YAAY,EAAA","sourcesContent":[".header {\n  display: block;\n  margin: auto;\n  width: $mobile-card-width;\n  box-sizing: border-box;\n}\n\n.header__title {\n  color: $header-color;\n  font-size: 21px;\n  font-weight: 700;\n  text-align: center;\n  padding-top: 15px;\n  padding-bottom: 15px;\n}\n\n.header__label {\n  font-size: 16px;\n  font-weight: 700;\n  line-height: 24px;\n  letter-spacing: -0.3px;\n  color: #363636;\n  padding-right: 10px;\n}\n\n.header__filter {\n  width: 210px;\n  border: 1px solid #D8D8D8;\n  box-sizing: border-box;\n  border-radius: 25px;\n  line-height: 25px;\n}\n\n@media (min-width: $desktop-width) {\n  .header {\n    width: 1181px;\n  }\n\n  .header__title {\n    font-size: 36px;\n    padding-top: 0;\n    padding-bottom: 0;\n    margin-top: 36px;\n    margin-bottom: 43px;\n    margin-left: -19px;\n    letter-spacing: 1.7px;\n  }\n\n  .header__label {\n    font-size: 16px;\n    line-height: 24px;\n    letter-spacing: -0.3px;\n    padding-right: 18px;\n  }\n\n  .header__filter {\n    width: 418px;\n    line-height: 48px;\n    font-size: 20px;\n    margin-bottom: 45px;\n    padding-left: 20px;\n    padding-right: 20px;\n  }\n}\n","$header-color: #45852D;\r\n$mobile-card-width: 260px;\r\n$desktop-card-width: 379px;\r\n$desktop-width: 321px;\r\n$dark-grey: #363636;\r\n","* {\n  box-sizing: border-box;\n  font-family: 'Open Sans', sans-serif;\n}\n\n.main {\n  padding-bottom: 77px;\n}\n",".cards {\n  list-style: none;\n  padding-left: 0;\n  padding-bottom: 23px;\n}\n\n@media (min-width: $desktop-width) {\n  .cards {\n    width: 1181px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: space-between;\n    margin: auto;\n  }\n}\n",".card {\n  width: $mobile-card-width;\n  background: #F8F8F8;\n  border: 1px solid #D8D8D8;\n  box-sizing: border-box;\n  margin: auto;\n  margin-bottom: 38px;\n  padding-bottom: 10px;\n}\n\n.card__link {\n  display: block;\n  cursor: pointer;\n  text-decoration: none;\n  color: #363636;\n}\n\n.card__description {\n  font-size: 16px;\n  padding-left: 20px;\n  padding-right: 20px;\n  margin-top: 5px;\n}\n\n.card__title {\n  font-size: 20px;\n  font-weight: 700;\n  line-height: 27px;\n  letter-spacing: 0.7px;\n  text-align: left;\n  margin: 0;\n  padding-top: 10px;\n  margin-bottom: -13px;\n}\n\n.card__house-picture {\n  width: 258px;\n  height: auto;\n}\n\n.card__description {\n  position: relative;\n}\n\n.card__description {\n  &.card__description_independentliving::after {\n    background-color: #006F79;\n    content: \"Independent living\";\n    width: 110px;\n  }\n}\n\n.card__description {\n  &.card__description_supportavailable::after {\n    background-color: #EC6608;\n    content: \"Restaurant & Support available\";\n    width: 176px;\n  }\n}\n\n.card__description::after {\n  position: absolute;\n  display: block;\n  font-size: 12px;\n  padding-left: 10px;\n  padding-right: 10px;\n  padding-top: 8px;\n  padding-bottom: 6px;\n  top: -35px;\n  right: -1px;\n  color: #FFFFFF;\n}\n\n.card__properties_price {\n  font-weight: 700;\n}\n\n.card__shared {\n  font-size: 14px;\n}\n\n@media (min-width: $desktop-width) {\n  .card {\n    width: $desktop-card-width;\n    margin: 0;\n    margin-bottom: 38px;\n  }\n\n  .card__house-picture {\n    width: 377px;\n  }\n\n  .card__shared {\n    font-size: 14px;\n    margin-bottom: 7px;\n\n  }\n\n  .card__properties {\n    margin-bottom: -8px;\n  }\n}\n",".seemore {\n  display: block;\n  position: relative;\n  text-decoration: none;\n  width: 150px;\n  border: 1px solid #D8D8D8;\n  border-radius: 25px;\n  font-size: 16px;\n  font-weight: 700;\n  color: $dark-grey;\n  margin: auto;\n  padding-top: 10px;\n  padding-left: 30px;\n  padding-bottom: 12px;\n  background-color: #FFFFFF;\n}\n\n.seemore::after {\n  position: absolute;\n  display: block;\n  content: url(\"../img/chevron.svg\");\n  width: 55px;\n  height: 53px;\n  top: 13px;\n  right: -19px;\n  z-index: 700;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1009,9 +1009,9 @@ class FilterModel extends _observer__WEBPACK_IMPORTED_MODULE_0__.default {
     this._filterValue = {text: ''};
   }
 
-  setFilterValue(filterValue) {
+  setFilterValue(updateTypeForRerender, filterValue) {
     this._filterValue = filterValue;
-    this._notify(this._filterValue);
+    this._notify(updateTypeForRerender, this._filterValue);
   }
 
   getFilterValue() {
@@ -1061,14 +1061,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ BoardPresenter)
 /* harmony export */ });
-/* harmony import */ var _view_cards_cards_board_view__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../view/cards/cards-board-view */ "./src/js/view/cards/cards-board-view.js");
-/* harmony import */ var _view_cards_no_cards__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../view/cards/no-cards */ "./src/js/view/cards/no-cards.js");
-/* harmony import */ var _view_see_more_view__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../view/see-more-view */ "./src/js/view/see-more-view.js");
-/* harmony import */ var _view_cards_cards_list_view__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../view/cards/cards-list-view */ "./src/js/view/cards/cards-list-view.js");
-/* harmony import */ var _card_presenter__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./card-presenter */ "./src/js/presenter/card-presenter.js");
-/* harmony import */ var _view_loading_view__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../view/loading-view */ "./src/js/view/loading-view.js");
-/* harmony import */ var _utils_consts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/consts */ "./src/js/utils/consts.js");
-/* harmony import */ var _utils_render_utils__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../utils/render-utils */ "./src/js/utils/render-utils.js");
+/* harmony import */ var _view_cards_no_cards__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../view/cards/no-cards */ "./src/js/view/cards/no-cards.js");
+/* harmony import */ var _view_see_more_view__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../view/see-more-view */ "./src/js/view/see-more-view.js");
+/* harmony import */ var _view_cards_cards_list_view__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../view/cards/cards-list-view */ "./src/js/view/cards/cards-list-view.js");
+/* harmony import */ var _card_presenter__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./card-presenter */ "./src/js/presenter/card-presenter.js");
+/* harmony import */ var _view_loading_view__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../view/loading-view */ "./src/js/view/loading-view.js");
+/* harmony import */ var _utils_consts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/consts */ "./src/js/utils/consts.js");
+/* harmony import */ var _utils_render_utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/render-utils */ "./src/js/utils/render-utils.js");
+/* harmony import */ var _utils_utils__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../utils/utils */ "./src/js/utils/utils.js");
+
 
 
 
@@ -1091,15 +1092,16 @@ class BoardPresenter {
 
     this._isLoading = true;
 
-    this._renderedCardsCount = _utils_consts__WEBPACK_IMPORTED_MODULE_6__.CARDS_COUNT_PER_STEP;
+    this._renderedCardsCount = _utils_consts__WEBPACK_IMPORTED_MODULE_5__.CARDS_COUNT_PER_STEP;
 
-    this._cardsBoardComponent = new _view_cards_cards_board_view__WEBPACK_IMPORTED_MODULE_0__.default();
-    this._cardsListComponent = new _view_cards_cards_list_view__WEBPACK_IMPORTED_MODULE_3__.default();
+    this._cardsListComponent = new _view_cards_cards_list_view__WEBPACK_IMPORTED_MODULE_2__.default();
 
     this._seeMoreButtonComponent = null;
 
-    this._noCardsComponent = new _view_cards_no_cards__WEBPACK_IMPORTED_MODULE_1__.default();
-    this._loadingComponent = new _view_loading_view__WEBPACK_IMPORTED_MODULE_5__.default();
+    this._listRenderedPresentersBasicBlock = new Map();
+
+    this._noCardsComponent = new _view_cards_no_cards__WEBPACK_IMPORTED_MODULE_0__.default();
+    this._loadingComponent = new _view_loading_view__WEBPACK_IMPORTED_MODULE_4__.default();
 
     this._handleModelEventForRerender = this._handleModelEventForRerender.bind(this);
 
@@ -1118,16 +1120,23 @@ class BoardPresenter {
   }
 
   _getCards() {
+    const filterValue = this._filterModel.getFilterValue();
+
     const cards = this._cardsModel.getItems();
+
     let filteredCards = [];
 
-    filteredCards = cards;
+    if(filterValue.text.length > 3) {
+      filteredCards = (0,_utils_utils__WEBPACK_IMPORTED_MODULE_7__.getFilteredCards)(cards, filterValue.text.toLowerCase());
+    } else {
+      filteredCards = cards;
+    }
 
     return filteredCards;
   }
 
   _renderCardInBasicBlock(card) {
-    const cardPresenter = new _card_presenter__WEBPACK_IMPORTED_MODULE_4__.default(
+    const cardPresenter = new _card_presenter__WEBPACK_IMPORTED_MODULE_3__.default(
         this._cardsListComponent
     );
 
@@ -1141,8 +1150,7 @@ class BoardPresenter {
   }
 
   _renderBasicCardList() {
-    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.render)(this._container, this._cardsBoardComponent, _utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.RenderPosition.BEFOREEND);
-    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.render)(this._cardsBoardComponent, this._cardsListComponent, _utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.RenderPosition.BEFOREEND);
+    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_6__.render)(this._container, this._cardsListComponent, _utils_render_utils__WEBPACK_IMPORTED_MODULE_6__.RenderPosition.BEFOREEND);
 
     const allCards = this._getCards();
     const cardsCount = allCards.length;
@@ -1156,38 +1164,36 @@ class BoardPresenter {
   }
 
   _renderNoCards() {
-    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.render)(this._container, this._cardsBoardComponent, _utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.RenderPosition.BEFOREEND);
-    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.render)(this._cardsBoardComponent, this._noCardsComponent, _utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.RenderPosition.BEFOREEND);
+    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_6__.render)(this._container, this._noCardsComponent, _utils_render_utils__WEBPACK_IMPORTED_MODULE_6__.RenderPosition.BEFOREEND);
   }
 
   _renderLoading() {
-    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.render)(this._container, this._cardsBoardComponent, _utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.RenderPosition.BEFOREEND);
-    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.render)(this._cardsBoardComponent, this._loadingComponent, _utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.RenderPosition.BEFOREEND);
+    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_6__.render)(this._container, this._loadingComponent, _utils_render_utils__WEBPACK_IMPORTED_MODULE_6__.RenderPosition.BEFOREEND);
   }
 
   _handleModelEventForRerender(updateTypeRerender) {
     switch (updateTypeRerender) {
-      case _utils_consts__WEBPACK_IMPORTED_MODULE_6__.UpdateTypeForRerender.MAJOR:
+      case _utils_consts__WEBPACK_IMPORTED_MODULE_5__.UpdateTypeForRerender.MAJOR:
         this._destroy();
         this.init();
         break;
-      case _utils_consts__WEBPACK_IMPORTED_MODULE_6__.UpdateTypeForRerender.INIT:
+      case _utils_consts__WEBPACK_IMPORTED_MODULE_5__.UpdateTypeForRerender.INIT:
         this._isLoading = false;
-        (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.remove)(this._loadingComponent);
+        (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_6__.remove)(this._loadingComponent);
         this.init();
     }
   }
 
   _handleSeeMoreButtonClick() {
     const cardsCount = this._getCards().length;
-    const newRenderedCardsCount = Math.min(cardsCount, this._renderedCardsCount + _utils_consts__WEBPACK_IMPORTED_MODULE_6__.CARDS_COUNT_PER_STEP);
+    const newRenderedCardsCount = Math.min(cardsCount, this._renderedCardsCount + _utils_consts__WEBPACK_IMPORTED_MODULE_5__.CARDS_COUNT_PER_STEP);
     const cards = this._getCards().slice(this._renderedCardsCount, newRenderedCardsCount);
 
     this._renderCards(cards);
     this._renderedCardsCount = newRenderedCardsCount;
 
     if (this._renderedCardsCount >= cardsCount) {
-      (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.remove)(this._seeMoreButtonComponent);
+      (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_6__.remove)(this._seeMoreButtonComponent);
     }
   }
 
@@ -1198,18 +1204,18 @@ class BoardPresenter {
 
     this._listRenderedPresentersBasicBlock = new Map();
 
-    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.remove)(this._seeMoreButtonComponent);
+    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_6__.remove)(this._seeMoreButtonComponent);
   }
 
   _clearDesk({resetRenderedCardsCount: resetRenderedCardsCount = false} = {}) {
 
     this._clearCardListInBasicBlock();
 
-    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.remove)(this._noCardsComponent);
-    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.remove)(this._loadingComponent);
+    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_6__.remove)(this._noCardsComponent);
+    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_6__.remove)(this._loadingComponent);
 
     if (resetRenderedCardsCount) {
-      this._renderedCardsCount = _utils_consts__WEBPACK_IMPORTED_MODULE_6__.CARDS_COUNT_PER_STEP;
+      this._renderedCardsCount = _utils_consts__WEBPACK_IMPORTED_MODULE_5__.CARDS_COUNT_PER_STEP;
     }
   }
 
@@ -1218,10 +1224,10 @@ class BoardPresenter {
       this._seeMoreButtonComponent = null;
     }
 
-    this._seeMoreButtonComponent = new _view_see_more_view__WEBPACK_IMPORTED_MODULE_2__.default();
+    this._seeMoreButtonComponent = new _view_see_more_view__WEBPACK_IMPORTED_MODULE_1__.default();
     this._seeMoreButtonComponent.setClickHandler(this._handleSeeMoreButtonClick);
 
-    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.render)(this._cardsListComponent, this._seeMoreButtonComponent, _utils_render_utils__WEBPACK_IMPORTED_MODULE_7__.RenderPosition.BEFOREEND);
+    (0,_utils_render_utils__WEBPACK_IMPORTED_MODULE_6__.render)(this._container, this._seeMoreButtonComponent, _utils_render_utils__WEBPACK_IMPORTED_MODULE_6__.RenderPosition.BEFOREEND);
   }
 
   _renderDesk() {
@@ -1308,6 +1314,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _view_filter_view__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../view/filter-view */ "./src/js/view/filter-view.js");
 /* harmony import */ var _utils_render_utils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/render-utils */ "./src/js/utils/render-utils.js");
+/* harmony import */ var _utils_consts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/consts */ "./src/js/utils/consts.js");
+
+
+
 
 
 
@@ -1332,7 +1342,7 @@ class FilterPresenter {
   }
 
   _handleFilterValueChange(filterValue) {
-    this._filterModel.setFilterValue(filterValue);
+    this._filterModel.setFilterValue(_utils_consts__WEBPACK_IMPORTED_MODULE_2__.UpdateTypeForRerender.MAJOR, filterValue);
   }
 
   _getFilterValue() {
@@ -1476,12 +1486,19 @@ const remove = (component) => {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "createElementHTML": () => (/* binding */ createElementHTML)
+/* harmony export */   "createElementHTML": () => (/* binding */ createElementHTML),
+/* harmony export */   "getFilteredCards": () => (/* binding */ getFilteredCards)
 /* harmony export */ });
 const createElementHTML = (template) => {
   const newElement = document.createElement(`div`);
   newElement.innerHTML = template;
   return newElement.firstChild;
+};
+
+const getFilteredCards = (cards, filterValue) => {
+  return cards.filter((card) => {
+    return card.title.toLowerCase().includes(filterValue);
+  });
 };
 
 
@@ -1590,33 +1607,6 @@ class CardView extends _smart__WEBPACK_IMPORTED_MODULE_0__.default {
 
 /***/ }),
 
-/***/ "./src/js/view/cards/cards-board-view.js":
-/*!***********************************************!*\
-  !*** ./src/js/view/cards/cards-board-view.js ***!
-  \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ CardsBoardView)
-/* harmony export */ });
-/* harmony import */ var _abstract__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../abstract */ "./src/js/view/abstract.js");
-
-
-const createCardsBoardTemplate = () => {
-  return `<main class="main"></main>`;
-};
-
-class CardsBoardView extends _abstract__WEBPACK_IMPORTED_MODULE_0__.default {
-  getTemplate() {
-    return createCardsBoardTemplate();
-  }
-}
-
-
-/***/ }),
-
 /***/ "./src/js/view/cards/cards-list-view.js":
 /*!**********************************************!*\
   !*** ./src/js/view/cards/cards-list-view.js ***!
@@ -1659,8 +1649,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const createNoCardsTemplate = () => {
-  return `<section class="cards-list">
-            <h2 class="card-list__title">There are no homes to show.</h2>
+  return `<section class="cards">
+            <h2>There are no homes to show.</h2>
           </section>`;
 };
 
@@ -1740,8 +1730,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const createFilmsLoadingTemplate = () => {
-  return `<section class="films-list">
-            <h2 class="films-list__title">Loading...</h2>
+  return `<section class="cards">
+            <h2>Loading...</h2>
           </section>`;
 };
 
@@ -1769,7 +1759,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const createSeeMoreTemplate = () => {
-  return `<button class="seemore">See more</button>`;
+  return `<a class="seemore">See more</a>`;
 };
 
 class SeeMoreView extends _abstract__WEBPACK_IMPORTED_MODULE_0__.default {
@@ -1815,15 +1805,15 @@ class Smart extends _abstract__WEBPACK_IMPORTED_MODULE_0__.default {
     super();
   }
 
-  updateData(update) {
-    if (!update) {
+  updateData(newData) {
+    if (!newData) {
       return;
     }
 
     this._data = Object.assign(
         {},
         this._data,
-        update
+        newData
     );
   }
 }
